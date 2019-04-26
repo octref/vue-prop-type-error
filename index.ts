@@ -2,9 +2,13 @@ import Vue from 'vue'
 
 const foo = Vue.extend({
   props: {
-    bar: Array
+    a: Array,
+    s: String,
+    b: Boolean
   },
   created() {
-    this.bar = 5
+    console.log(this.a)
+    console.log(this.s)
+    console.log(this.b)
   }
 })
