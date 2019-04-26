@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "compile": "tsc -p ."
+  },
+  "dependencies": {
+    "typescript": "^3.4.5",
+    "vue": "^2.6.10"
+  }
+}
