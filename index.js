@@ -3,9 +3,13 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var vue_1 = require("vue");
 var foo = vue_1.default.extend({
     props: {
-        bar: Array
+        a: Array,
+        s: String,
+        b: Boolean
     },
     created: function () {
-        this.bar = 5;
+        console.log(this.a);
+        console.log(this.s);
+        console.log(this.b);
     }
 });

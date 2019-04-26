@@ -3,7 +3,7 @@
     "compile": "tsc -p ."
   },
   "dependencies": {
-    "typescript": "^3.4.5",
+    "typescript": "3.3",
     "vue": "^2.6.10"
   }
 }
